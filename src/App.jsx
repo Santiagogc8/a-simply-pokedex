@@ -16,7 +16,7 @@ function App() { // Se crea la funcion
   const fetchAllPokemons = async () => {
 
     // Crea una variable para validar cuantos pokes quiere ver el usuario
-    let numPoke = prompt("Cuantos pokes quieres ver¿");
+    let numPoke = prompt("Cuantos pokes quieres ver?");
 
     // Lo recibido lo convierte en un entero de base 10
     numPoke = parseInt(numPoke, 10);
